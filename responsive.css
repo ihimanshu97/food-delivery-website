@@ -1,0 +1,38 @@
+/* For Navbar */
+@media screen and (max-width: 716px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar .img {
+        display: block;
+        margin: auto;
+    }
+
+    #contact-form label, #contact-form input, #contact-form textarea {
+        width: 80%;
+    }
+
+    #contact #form img {
+        width: 80%;
+    }
+}
+
+/* Mobile */
+/* Considering 415px as max-width for a mobile */
+
+@media screen and (max-width: 415px) {
+    .h-secondary b {
+        display: block;
+    }
+
+    #home h2, #home p {
+        letter-spacing: 0;
+    }
+}
+
+/* 
+#contact .img {
+        display: none;
+    }
+ */
